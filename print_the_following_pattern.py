@@ -1,5 +1,7 @@
 a=int(input())
-for i in range(1,a+1):
-    for j in range(1,i+1):
-        print(j,end='')
+for j in range(a):
+    b=chr(65+j)
+    c=[b]*a
+    for m in c:
+        print(m,end=' ')
     print()
